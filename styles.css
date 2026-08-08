@@ -3,3 +3,40 @@
 @media(max-width:900px){.links{display:none;position:absolute;top:78px;left:0;right:0;background:var(--cream);padding:25px;flex-direction:column}.links.open{display:flex}.menu{display:block}.nav .btn{display:none}.cat-grid,.product-grid{grid-template-columns:repeat(2,1fr)}.why-grid,.story-grid,.cta-grid,.contact-grid{grid-template-columns:1fr}.adv-grid,.testimonials{grid-template-columns:1fr}.adv{border-right:0;border-bottom:1px solid rgba(255,255,255,.12)}.process{grid-template-columns:repeat(3,1fr)}.certs{grid-template-columns:repeat(2,1fr)}.foot-grid{grid-template-columns:1fr 1fr}.admin-shell{grid-template-columns:1fr}.sidebar{display:none}.dash-cards{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.container{width:min(100% - 28px,1180px)}section{padding:72px 0}.hero{min-height:690px;background:linear-gradient(rgba(248,246,240,.9),rgba(248,246,240,.88)),url('assets/hero.webp') 62% center/cover}.hero-copy{padding:60px 0}.trust{gap:14px}.cat-grid,.product-grid,.form-grid{grid-template-columns:1fr}.cat{min-height:320px}.section-head{display:block}.section-head .btn{margin-top:20px}.testimonials,.process{grid-template-columns:1fr}.certs{grid-template-columns:1fr 1fr}.foot-grid{grid-template-columns:1fr}.copyright{display:block}.product-img{height:340px}.dash-cards{grid-template-columns:1fr}.admin-main{padding:18px}.cookie{left:12px;right:12px;bottom:12px;display:block}.cookie .btn{margin-top:12px}.whatsapp{bottom:18px;right:16px}}
 
+.links{text-transform:uppercase;letter-spacing:.08em;font-size:13px}.nav-search{width:220px;height:44px;border-radius:99px;background:#e9e9e9;display:flex;align-items:center;gap:9px;padding:0 17px;flex:0 0 auto}.nav-search svg{width:21px;height:21px;fill:none;stroke:#4e5551;stroke-width:1.7}.nav-search input{min-width:0;width:100%;border:0;outline:0;background:transparent;color:var(--ink);font-size:15px}.nav-search input::placeholder{color:#8b8f8c}.search-empty{grid-column:1/-1;padding:50px;text-align:center;background:#fff;border-radius:18px}
+@media(max-width:900px){.nav-inner{gap:14px}.nav-search{margin-left:auto;width:min(230px,36vw)}}
+@media(max-width:600px){.brand small{display:none}.nav-search{width:145px;height:40px;padding:0 13px}.nav-search input{font-size:13px}.nav-search svg{width:18px;height:18px}}
+
+/* Centered two-line wordmark matching the supplied brand reference. */
+.brand{
+  display:inline-flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  font-family:"Times New Roman",Times,Georgia,serif;
+  font-size:25px;
+  font-weight:400;
+  line-height:.94;
+  letter-spacing:.025em;
+}
+.brand .brand-top,.brand .brand-bottom{display:block;width:100%;padding-left:0}
+.brand small{display:none}
+
+.site-footer .foot-grid{grid-template-columns:repeat(3,1fr)}
+.site-footer h4,.site-footer .foot-links a{text-transform:uppercase}
+@media(max-width:600px){.site-footer .foot-grid{grid-template-columns:1fr}}
+.faq-list{max-width:860px;display:grid;gap:14px}.faq-item{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px}.faq-item h3{margin-bottom:8px}.faq-item p{margin-bottom:0;color:var(--muted)}
+.policy-content{max-width:860px}.policy-content h2{font-size:38px;margin-top:58px;scroll-margin-top:110px}.policy-content h2:first-child{margin-top:0}.policy-content p{color:var(--muted)}
+.file-upload{min-height:56px;border:1px solid var(--line);background:#f8f9f7;border-radius:10px;padding:9px 12px;display:flex;align-items:center;gap:14px;position:relative}.file-upload input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}.file-button{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--ink);border-radius:6px;background:#fff;padding:9px 13px;font-size:12px;letter-spacing:.08em;font-weight:700;cursor:pointer;white-space:nowrap}.file-button:hover{background:var(--pale)}.file-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:14px}
+.company-introduction h2{margin-bottom:30px;font-family:Arial,"Helvetica Neue",sans-serif;font-size:15px;font-weight:700;line-height:1.4;letter-spacing:.2em;text-transform:uppercase;color:var(--sage)}.company-introduction p{color:var(--muted);margin-bottom:18px}.company-introduction strong{color:inherit;font-weight:inherit}
+.company-introduction{align-items:stretch}.company-introduction .image-panel{min-height:0;height:auto;background-image:url('assets/about-company-v2.webp');background-position:center center;background-size:cover}
+@media(max-width:900px){.company-introduction .image-panel{min-height:520px}}
+@media(max-width:600px){.company-introduction .image-panel{min-height:420px}}
+.nav-dropdown{position:relative}.nav-dropdown>a{display:block}.submenu{position:absolute;left:50%;top:calc(100% + 20px);width:220px;padding:12px;background:var(--cream);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);display:grid;gap:2px;opacity:0;visibility:hidden;transform:translate(-50%,8px);transition:.2s}.submenu:before{content:"";position:absolute;left:0;right:0;top:-22px;height:24px}.submenu a{display:block;padding:10px 12px;border-radius:8px;font-size:12px;letter-spacing:.1em;white-space:nowrap}.submenu a:hover{background:var(--pale);color:var(--sage)}.nav-dropdown:hover .submenu,.nav-dropdown:focus-within .submenu{opacity:1;visibility:visible;transform:translate(-50%,0)}
+@media(max-width:900px){.nav-dropdown{width:100%}.submenu{position:static;width:100%;margin-top:10px;padding:4px 0 4px 18px;border:0;border-left:1px solid var(--line);border-radius:0;box-shadow:none;opacity:1;visibility:visible;transform:none;background:transparent}.submenu:before{display:none}}
+.copyright span:last-child{display:none}
+.whatsapp{background:#fff;color:transparent;border:2px solid #25d366;font-size:0}
+.whatsapp:before{content:"";width:38px;height:38px;display:block;background:center/contain no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 7C18.2 7 7 17.9 7 31.3c0 4.6 1.3 8.9 3.7 12.6L7 57l13.6-3.6A25.6 25.6 0 0 0 32 56c13.8 0 25-10.9 25-24.4S45.8 7 32 7Z' fill='none' stroke='%2325d366' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M20.5 18.2c1.4-1.3 3.7-.9 4.5.8l3.2 6.5c.6 1.2.3 2.6-.7 3.5l-2.1 1.9c2.7 5.6 6.5 9.4 12.1 12.1l1.9-2.1c.9-1 2.3-1.3 3.5-.7l6.5 3.2c1.7.8 2.1 3.1.8 4.5-2.2 2.4-5.4 3.8-8.8 3.4-13-1.5-25.6-14.1-27.1-27.1-.4-3.4 1-6.6 3.4-8.8Z' fill='%2325d366'/%3E%3C/svg%3E")}
+.contact-card p b{display:inline-block;margin-bottom:4px;font-family:Arial,"Helvetica Neue",sans-serif;font-size:12px;font-weight:700;line-height:1.4;letter-spacing:.14em;text-transform:uppercase}
+
