@@ -24,7 +24,7 @@
 .brand small{display:none}
 
 .site-footer .foot-grid{grid-template-columns:repeat(3,1fr)}
-.site-footer h4,.site-footer .foot-links a{text-transform:uppercase}
+.site-footer h4,.site-footer .foot-links a{font-family:Arial,"Helvetica Neue",sans-serif;font-size:11px;font-weight:700;line-height:1.4;letter-spacing:.12em;text-transform:uppercase}
 @media(max-width:600px){.site-footer .foot-grid{grid-template-columns:1fr}}
 .faq-list{max-width:860px;display:grid;gap:14px}.faq-item{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px}.faq-item h3{margin-bottom:8px}.faq-item p{margin-bottom:0;color:var(--muted)}
 .policy-content{max-width:860px}.policy-content h2{font-size:38px;margin-top:58px;scroll-margin-top:110px}.policy-content h2:first-child{margin-top:0}.policy-content p{color:var(--muted)}
@@ -39,4 +39,5 @@
 .whatsapp{background:#fff;color:transparent;border:2px solid #25d366;font-size:0}
 .whatsapp:before{content:"";width:38px;height:38px;display:block;background:center/contain no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 7C18.2 7 7 17.9 7 31.3c0 4.6 1.3 8.9 3.7 12.6L7 57l13.6-3.6A25.6 25.6 0 0 0 32 56c13.8 0 25-10.9 25-24.4S45.8 7 32 7Z' fill='none' stroke='%2325d366' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M20.5 18.2c1.4-1.3 3.7-.9 4.5.8l3.2 6.5c.6 1.2.3 2.6-.7 3.5l-2.1 1.9c2.7 5.6 6.5 9.4 12.1 12.1l1.9-2.1c.9-1 2.3-1.3 3.5-.7l6.5 3.2c1.7.8 2.1 3.1.8 4.5-2.2 2.4-5.4 3.8-8.8 3.4-13-1.5-25.6-14.1-27.1-27.1-.4-3.4 1-6.6 3.4-8.8Z' fill='%2325d366'/%3E%3C/svg%3E")}
 .contact-card p b{display:inline-block;margin-bottom:4px;font-family:Arial,"Helvetica Neue",sans-serif;font-size:12px;font-weight:700;line-height:1.4;letter-spacing:.14em;text-transform:uppercase}
+.contact-card p:not(.eyebrow){font-size:15px;line-height:1.65}
 
