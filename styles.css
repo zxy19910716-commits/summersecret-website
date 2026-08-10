@@ -127,3 +127,19 @@
 .collections-section + .why{padding-top:48px}
 @media(max-width:600px){.collections-section{padding-bottom:24px}.collections-section + .why{padding-top:36px}}
 
+/* Compact, editorial quality-control cards. */
+.quality-control .section-head{margin-bottom:34px}
+.quality-control .container{width:min(1680px,calc(100% - 40px))}
+.quality-control .section-head h2{max-width:900px}
+.quality-control .process{gap:14px}
+.quality-control .step{min-height:210px;padding:22px 18px 20px;text-align:left;display:flex;flex-direction:column;align-items:flex-start}
+.quality-control .step b{width:auto;height:auto;margin:0 0 15px;border-radius:0;background:transparent;color:#a8bbaa;display:block;font:400 25px/1 Georgia,"Times New Roman",serif;letter-spacing:.025em}
+.quality-control .step h3{margin:0 0 12px;font-size:22px;line-height:1.2}
+.quality-control .step p{margin:0;color:var(--muted);font-size:15px;line-height:1.55}
+@media(max-width:1350px){.quality-control .process{grid-template-columns:repeat(3,1fr)}.quality-control .step{min-height:195px}}
+@media(max-width:600px){.quality-control .section-head{margin-bottom:26px}.quality-control .process{grid-template-columns:1fr}.quality-control .step{min-height:0;padding:20px}.quality-control .step b{margin-bottom:12px}.quality-control .step p{font-size:15px}}
+
+/* Remove the oversized transition gap before buyer stories. */
+.buyer-stories-section{padding-top:42px}
+@media(max-width:600px){.buyer-stories-section{padding-top:32px}}
+
