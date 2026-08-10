@@ -63,3 +63,27 @@
 .why-list-compact .why-item i{width:36px;height:36px;font-size:17px}
 .why-list-compact .why-item h3{margin:0;font-size:16px;line-height:1.4}
 
+/* Homepage collections: dedicated category photography and a quieter heading. */
+.collection-head{margin-bottom:28px}
+.collection-head .eyebrow{margin-bottom:0}
+.cat{min-height:410px}
+.cat:before{background-image:var(--cat-image,url('assets/catalog.webp'));background-size:cover;background-position:center;filter:saturate(.92) contrast(.98)}
+.cat:after{background:linear-gradient(transparent 48%,rgba(25,36,31,.82))}
+.cat h3{font-size:29px;line-height:1.1}
+.collection-footer{display:flex;justify-content:flex-end;margin-top:24px}
+.collection-footer .btn{min-width:190px}
+
+/* Why section: warm neutral canvas, clean list, and a purpose-built studio image. */
+.why{background:var(--cream)}
+.why-grid{grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);gap:76px;align-items:stretch}
+.why .image-panel{min-height:620px;background-image:url('assets/why-studio-v2.webp');background-position:center;background-size:cover;border-radius:26px;box-shadow:0 18px 45px rgba(38,51,45,.08)}
+.why-content{padding:30px 0;display:flex;flex-direction:column;justify-content:center}
+.why-content .eyebrow{margin-bottom:18px}
+.why-content .why-intro{max-width:540px;margin:0 0 25px;font-size:17px;line-height:1.72}
+.why-list-compact{gap:10px}
+.why-list-compact .why-item{grid-template-columns:34px minmax(0,1fr);gap:14px;padding:10px 0;border-bottom:0}
+.why-list-compact .why-item i{width:34px;height:34px;font-size:16px}
+.why-list-compact .why-item h3{font-size:15px;font-weight:600;line-height:1.45;letter-spacing:.005em}
+@media(max-width:900px){.why-grid{grid-template-columns:1fr;gap:42px}.why .image-panel{min-height:560px}.why-content{padding:0}}
+@media(max-width:600px){.cat{min-height:390px}.collection-footer{margin-top:18px}.collection-footer .btn{min-width:180px}.why .image-panel{min-height:430px}.why-content .why-intro{font-size:16px}.why-list-compact .why-item{padding:9px 0}}
+
