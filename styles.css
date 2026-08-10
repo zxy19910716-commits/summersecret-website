@@ -43,19 +43,78 @@
 
 /* Refined homepage hero and consistent rectangular navigation buttons. */
 .btn,.filter{border-radius:10px}
-.hero{background:linear-gradient(90deg,rgba(248,246,240,.72) 0%,rgba(248,246,240,.56) 38%,rgba(248,246,240,.04) 64%),url('assets/hero-v2.webp') center/cover}
-.hero-copy{width:min(720px,96%)}
-.hero h1{max-width:720px;margin-bottom:26px;font-size:clamp(48px,5vw,64px);line-height:1.02;letter-spacing:-.04em}
+.hero{background:linear-gradient(90deg,rgba(248,246,240,.76) 0%,rgba(248,246,240,.6) 38%,rgba(248,246,240,.04) 64%),url('assets/hero-v2.webp') center/cover}
+.hero-copy{width:min(670px,92%);padding:76px 0 58px;display:flex;flex-direction:column;align-items:flex-start}
+.hero .eyebrow{margin-bottom:20px;font-size:11px;line-height:1.4;letter-spacing:.22em}
+.hero h1{max-width:670px;margin-bottom:24px;font-size:clamp(46px,4.5vw,58px);line-height:1.03;letter-spacing:-.038em}
 .hero h1 .hero-line{display:block;white-space:nowrap;color:var(--ink)}
 .hero h1 .hero-line-accent{color:var(--sage)}
-.hero .lead{max-width:660px;line-height:1.65;margin-bottom:0}
-.hero-actions .btn{min-width:210px;justify-content:space-between}
-.rtl .hero{background:linear-gradient(270deg,rgba(248,246,240,.72) 0%,rgba(248,246,240,.56) 38%,rgba(248,246,240,.04) 64%),url('assets/hero-v2.webp') center/cover}
-@media(max-width:900px){.hero-copy{width:min(680px,94%)}.hero h1 .hero-line{white-space:normal}}
-@media(max-width:600px){.hero{background:linear-gradient(rgba(248,246,240,.82),rgba(248,246,240,.76)),url('assets/hero-v2.webp') 68% center/cover}.hero-copy{width:100%}.hero h1{font-size:clamp(42px,13vw,54px)}.hero-actions .btn{min-width:200px}}
+.hero .lead{max-width:610px;margin-bottom:0;font-size:17px;line-height:1.7}
+.hero-actions{margin-top:27px}
+.hero-actions .btn{min-width:232px;padding:14px 16px 14px 22px;justify-content:flex-start;gap:18px}
+.hero-actions .btn span{width:26px;height:26px;margin-left:auto;border:1px solid rgba(255,255,255,.42);border-radius:6px;display:grid;place-items:center;font-size:15px;line-height:1;transition:transform .2s ease,background .2s ease}
+.hero-actions .btn:hover span{transform:translateX(2px);background:rgba(255,255,255,.12)}
+.rtl .hero{background:linear-gradient(270deg,rgba(248,246,240,.76) 0%,rgba(248,246,240,.6) 38%,rgba(248,246,240,.04) 64%),url('assets/hero-v2.webp') center/cover}
+@media(max-width:900px){.hero-copy{width:min(620px,92%)}.hero h1 .hero-line{white-space:normal}}
+@media(max-width:600px){.hero{min-height:660px;background:linear-gradient(rgba(248,246,240,.86),rgba(248,246,240,.8)),url('assets/hero-v2.webp') 68% center/cover}.hero-copy{width:100%;padding:54px 0 44px}.hero .eyebrow{margin-bottom:16px;font-size:10px}.hero h1{margin-bottom:20px;font-size:clamp(40px,12.5vw,50px);line-height:1.02}.hero .lead{font-size:16px;line-height:1.62}.hero-actions{margin-top:24px}.hero-actions .btn{min-width:220px}}
 .why-intro{margin:20px 0 24px;max-width:590px}
 .why-list-compact{gap:0}
 .why-list-compact .why-item{grid-template-columns:36px 1fr;gap:14px;align-items:center;padding:13px 0}
 .why-list-compact .why-item i{width:36px;height:36px;font-size:17px}
 .why-list-compact .why-item h3{margin:0;font-size:16px;line-height:1.4}
+
+/* Homepage collections: dedicated category photography and a quieter heading. */
+.collection-head{margin-bottom:28px}
+.collection-head .eyebrow{margin-bottom:0}
+.cat{min-height:410px}
+.cat:before{background-image:var(--cat-image,url('assets/catalog.webp'));background-size:cover;background-position:center;filter:saturate(.92) contrast(.98)}
+.cat:after{background:linear-gradient(transparent 48%,rgba(25,36,31,.82))}
+.cat h3{font-size:29px;line-height:1.1}
+.collection-footer{display:flex;justify-content:flex-end;margin-top:24px}
+.collection-footer .btn{min-width:190px}
+
+/* Why section: warm neutral canvas, clean list, and a purpose-built studio image. */
+.why{background:var(--cream)}
+.why-grid{grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);gap:76px;align-items:stretch}
+.why .image-panel{min-height:620px;background-image:url('assets/why-studio-v2.webp');background-position:center;background-size:cover;border-radius:26px;box-shadow:0 18px 45px rgba(38,51,45,.08)}
+.why-content{padding:30px 0;display:flex;flex-direction:column;justify-content:center}
+.why-content .eyebrow{margin-bottom:18px}
+.why-content .why-intro{max-width:540px;margin:0 0 25px;font-size:17px;line-height:1.72}
+.why-list-compact{gap:10px}
+.why-list-compact .why-item{grid-template-columns:34px minmax(0,1fr);gap:14px;padding:10px 0;border-bottom:0}
+.why-list-compact .why-item i{width:34px;height:34px;font-size:16px}
+.why-list-compact .why-item h3{font-size:15px;font-weight:600;line-height:1.45;letter-spacing:.005em}
+@media(max-width:900px){.why-grid{grid-template-columns:1fr;gap:42px}.why .image-panel{min-height:560px}.why-content{padding:0}}
+@media(max-width:600px){.cat{min-height:390px}.collection-footer{margin-top:18px}.collection-footer .btn{min-width:180px}.why .image-panel{min-height:430px}.why-content .why-intro{font-size:16px}.why-list-compact .why-item{padding:9px 0}}
+
+/* Editorial blog and readable article pages. */
+.blog-hero{padding-bottom:78px}
+.blog-listing{padding-top:72px}
+.blog-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.blog-card{display:flex;flex-direction:column;min-width:0;background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 10px 34px rgba(38,51,45,.07);transition:transform .25s ease,box-shadow .25s ease}
+.blog-card:hover{transform:translateY(-5px);box-shadow:0 18px 42px rgba(38,51,45,.13)}
+.blog-card>img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.blog-card-body{display:flex;flex-direction:column;align-items:flex-start;flex:1;padding:25px 25px 27px}
+.blog-card h2{margin:14px 0 12px;font-size:clamp(25px,2.2vw,34px);line-height:1.08;letter-spacing:-.025em}
+.blog-card p{color:var(--muted);font-size:15px;line-height:1.65}
+.read-link{display:inline-flex;align-items:center;gap:9px;margin-top:auto;padding-top:14px;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--sage)}
+.read-link i{font-style:normal;font-size:17px;transition:transform .2s ease}.blog-card:hover .read-link i{transform:translateX(4px)}
+.article-page{padding-bottom:100px}
+.article-header{max-width:940px;padding-top:92px;padding-bottom:48px;text-align:center}
+.article-back{display:inline-block;margin-bottom:38px;color:var(--muted);font-size:13px;letter-spacing:.06em}
+.article-header .tag{display:inline-block;margin-bottom:20px}
+.article-header h1{margin:0 auto 22px;max-width:900px;font-size:clamp(48px,6.5vw,82px)}
+.article-deck{max-width:760px;margin:0 auto;color:var(--muted);font-size:20px;line-height:1.65}
+.article-image{max-width:1180px}
+.article-image img{width:100%;height:clamp(360px,50vw,650px);object-fit:cover;border-radius:26px;box-shadow:var(--shadow)}
+.article-body{max-width:780px;padding-top:68px;font-family:Georgia,"Times New Roman",serif;font-size:18px;line-height:1.85}
+.article-body p{margin-bottom:27px}.article-body .article-intro{font-size:22px;line-height:1.75;color:#4d5e55}
+.article-body h2{margin:54px 0 18px;font-size:34px;line-height:1.2}
+.article-body ul{margin:0 0 30px;padding-left:24px}.article-body li{margin-bottom:12px}
+.article-note{margin:54px 0 0;padding:30px 34px;background:#e8ede8;border-left:4px solid var(--sage);border-radius:0 16px 16px 0}
+.article-note h3{margin-bottom:8px;font:27px Georgia,"Times New Roman",serif}.article-note p{margin:0}
+.article-cta{max-width:940px;margin-top:80px;padding:42px 46px;border-radius:22px;background:#fff;box-shadow:0 10px 34px rgba(38,51,45,.07);display:flex;align-items:center;justify-content:space-between;gap:30px}
+.article-cta h2{margin:0;font-size:34px}.article-cta .eyebrow{margin-bottom:9px}
+@media(max-width:900px){.blog-grid{grid-template-columns:1fr 1fr}.article-cta{align-items:flex-start;flex-direction:column}}
+@media(max-width:600px){.blog-grid{grid-template-columns:1fr}.blog-listing{padding-top:50px}.article-header{padding-top:60px;padding-bottom:34px}.article-header h1{font-size:clamp(40px,12vw,54px)}.article-deck{font-size:17px}.article-image img{border-radius:18px}.article-body{padding-top:48px;font-size:17px;line-height:1.78}.article-body .article-intro{font-size:19px}.article-body h2{margin-top:42px;font-size:29px}.article-note{padding:25px 24px}.article-cta{margin-top:58px;padding:30px 26px}.article-cta h2{font-size:29px}}
 
