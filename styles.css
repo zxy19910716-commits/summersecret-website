@@ -219,6 +219,7 @@ section{padding-top:76px;padding-bottom:76px}
 /* OEM / ODM: clearer hierarchy and balanced, scannable capability rows. */
 #oem .story-grid{grid-template-columns:minmax(360px,.82fr) minmax(560px,1.18fr);gap:72px}
 #oem .oem-intro h2{max-width:510px;margin-bottom:24px;font-size:clamp(44px,4.6vw,62px)}
+@media(min-width:601px){#oem .oem-title-line{white-space:nowrap}}
 #oem .oem-card{padding:38px 40px;border-radius:26px;box-shadow:0 16px 44px rgba(38,51,45,.1)}
 .oem-card-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;padding-bottom:20px;border-bottom:1px solid var(--line)}
 .oem-card-head .eyebrow{margin:0;white-space:nowrap}
