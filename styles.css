@@ -131,12 +131,12 @@
 .quality-control .section-head{margin-bottom:34px}
 .quality-control .container{width:min(1680px,calc(100% - 40px))}
 .quality-control .section-head h2,.compliance-support .section-head h2{max-width:none;font-size:clamp(32px,3vw,48px);white-space:nowrap}
-.compliance-support .cert{min-height:220px;padding:28px;text-align:left;display:flex;flex-direction:column;align-items:flex-start}
-.compliance-support .cert-icon{width:42px;height:42px;margin-bottom:22px;border-radius:12px;display:grid;place-items:center;background:var(--pale);color:var(--sage)}
+.compliance-support .cert{min-height:164px;padding:24px;text-align:left;display:grid;grid-template-columns:42px minmax(0,1fr);grid-template-rows:auto auto;column-gap:14px;align-content:center;align-items:center}
+.compliance-support .cert-icon{width:42px;height:42px;margin:0;border-radius:12px;display:grid;place-items:center;background:var(--pale);color:var(--sage)}
 .compliance-support .cert-icon svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 .compliance-support .cert strong{display:block;font:25px Georgia,serif;line-height:1.15}
 .compliance-support .cert h3{margin:14px 0 4px;font-size:16px;line-height:1.35}
-.compliance-support .cert p{margin:14px 0 0;color:var(--muted);font-size:14px;line-height:1.5}
+.compliance-support .cert p{grid-column:2;margin:8px 0 0;color:var(--muted);font-size:14px;line-height:1.45}
 .quality-control .process{gap:14px}
 .quality-control .step{min-height:210px;padding:22px 18px 20px;text-align:left;display:flex;flex-direction:column;align-items:flex-start}
 .quality-control .step b{width:auto;height:auto;margin:0 0 15px;border-radius:0;background:transparent;color:#a8bbaa;display:block;font:400 25px/1 Georgia,"Times New Roman",serif;letter-spacing:.025em}
