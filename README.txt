@@ -1,4 +1,4 @@
-SUMMER SECRET WEBSITE — DEPLOYMENT NOTES
+SUMMER'S SECRET WEBSITE — DEPLOYMENT NOTES
 
 1. Upload every file and the assets folder in this directory to the public root of summersecret.cn.
 2. Open index.html. No build process is required.

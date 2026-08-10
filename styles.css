@@ -41,3 +41,21 @@
 .contact-card p b{display:inline-block;margin-bottom:4px;font-family:Arial,"Helvetica Neue",sans-serif;font-size:12px;font-weight:700;line-height:1.4;letter-spacing:.14em;text-transform:uppercase}
 .contact-card p:not(.eyebrow){font-size:15px;line-height:1.65}
 
+/* Refined homepage hero and consistent rectangular navigation buttons. */
+.btn,.filter{border-radius:10px}
+.hero{background:linear-gradient(90deg,rgba(248,246,240,.72) 0%,rgba(248,246,240,.56) 38%,rgba(248,246,240,.04) 64%),url('assets/hero-v2.webp') center/cover}
+.hero-copy{width:min(720px,96%)}
+.hero h1{max-width:720px;margin-bottom:26px;font-size:clamp(48px,5vw,64px);line-height:1.02;letter-spacing:-.04em}
+.hero h1 .hero-line{display:block;white-space:nowrap;color:var(--ink)}
+.hero h1 .hero-line-accent{color:var(--sage)}
+.hero .lead{max-width:660px;line-height:1.65;margin-bottom:0}
+.hero-actions .btn{min-width:210px;justify-content:space-between}
+.rtl .hero{background:linear-gradient(270deg,rgba(248,246,240,.72) 0%,rgba(248,246,240,.56) 38%,rgba(248,246,240,.04) 64%),url('assets/hero-v2.webp') center/cover}
+@media(max-width:900px){.hero-copy{width:min(680px,94%)}.hero h1 .hero-line{white-space:normal}}
+@media(max-width:600px){.hero{background:linear-gradient(rgba(248,246,240,.82),rgba(248,246,240,.76)),url('assets/hero-v2.webp') 68% center/cover}.hero-copy{width:100%}.hero h1{font-size:clamp(42px,13vw,54px)}.hero-actions .btn{min-width:200px}}
+.why-intro{margin:20px 0 24px;max-width:590px}
+.why-list-compact{gap:0}
+.why-list-compact .why-item{grid-template-columns:36px 1fr;gap:14px;align-items:center;padding:13px 0}
+.why-list-compact .why-item i{width:36px;height:36px;font-size:17px}
+.why-list-compact .why-item h3{margin:0;font-size:16px;line-height:1.4}
+
