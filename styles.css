@@ -76,7 +76,7 @@
 /* Why section: warm neutral canvas, clean list, and a purpose-built studio image. */
 .why{background:var(--cream)}
 .why-grid{grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);gap:76px;align-items:stretch}
-.why .image-panel{min-height:620px;background-image:url('assets/why-studio-v2.webp');background-position:center;background-size:cover;border-radius:26px;box-shadow:0 18px 45px rgba(38,51,45,.08)}
+.why .image-panel{min-height:540px;background-image:url('assets/why-studio-v5.webp');background-position:center;background-size:cover;border-radius:26px;box-shadow:0 18px 45px rgba(38,51,45,.08)}
 .why-content{padding:30px 0;display:flex;flex-direction:column;justify-content:center}
 .why-content .eyebrow{margin-bottom:18px}
 .why-content .why-intro{max-width:540px;margin:0 0 25px;font-size:17px;line-height:1.72}
@@ -84,8 +84,8 @@
 .why-list-compact .why-item{grid-template-columns:34px minmax(0,1fr);gap:14px;padding:10px 0;border-bottom:0}
 .why-list-compact .why-item i{width:34px;height:34px;font-size:16px}
 .why-list-compact .why-item h3{font-size:15px;font-weight:600;line-height:1.45;letter-spacing:.005em}
-@media(max-width:900px){.why-grid{grid-template-columns:1fr;gap:42px}.why .image-panel{min-height:560px}.why-content{padding:0}}
-@media(max-width:600px){.cat{min-height:390px}.collection-footer{margin-top:18px}.collection-footer .btn{min-width:180px}.why .image-panel{min-height:430px}.why-content .why-intro{font-size:16px}.why-list-compact .why-item{padding:9px 0}}
+@media(max-width:900px){.why-grid{grid-template-columns:1fr;gap:42px}.why .image-panel{min-height:500px}.why-content{padding:0}}
+@media(max-width:600px){.cat{min-height:390px}.collection-footer{margin-top:18px}.collection-footer .btn{min-width:180px}.why .image-panel{min-height:390px}.why-content .why-intro{font-size:16px}.why-list-compact .why-item{padding:9px 0}}
 
 /* Editorial blog and readable article pages. */
 .blog-hero{padding-bottom:78px}
@@ -121,4 +121,9 @@
 /* Keep the buyer-story headline on one elegant line at desktop widths. */
 .section-head .buyer-stories-title{max-width:none;font-size:clamp(34px,3.4vw,52px);white-space:nowrap}
 @media(max-width:900px){.section-head .buyer-stories-title{white-space:normal}}
+
+/* Tighter transition from collections to the studio section. */
+.collections-section{padding-bottom:38px}
+.collections-section + .why{padding-top:48px}
+@media(max-width:600px){.collections-section{padding-bottom:24px}.collections-section + .why{padding-top:36px}}
 
