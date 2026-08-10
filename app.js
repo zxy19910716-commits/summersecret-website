@@ -1,4 +1,6 @@
 const products = [
+  {id:'SS-C901',name:'Russian Vintage Doll Candle',cat:'candles',spec:'Soy wax & beeswax · 7 × 7 × 10.3 cm · 210 g',image:'assets/russian-vintage-doll-candle-1.webp',href:'russian-vintage-doll-candle.html',moq:'300 pcs'},
+  {id:'SS-C902',name:'Realistic Grape Cluster Candle',cat:'candles',spec:'Beeswax & honey wax · 33/36/39 grapes · Gift box',image:'assets/realistic-grape-cluster-candle-1.webp',href:'realistic-grape-cluster-candle.html',moq:'10 boxes'},
   {id:'SS-V101',name:'Ribbed Ceramic Vase',cat:'vases',spec:'Stoneware · H28 cm · Matte glaze',pos:'5% 8%'},
   {id:'SS-CH204',name:'Arch Candle Holder',cat:'holders',spec:'Stoneware · H18 cm · Reactive glaze',pos:'47% 8%'},
   {id:'SS-C307',name:'Morandi Pillar Candle Set',cat:'candles',spec:'Paraffin/soy blend · 3 sizes',pos:'90% 8%'},
@@ -44,5 +46,10 @@ function renderProducts(target,limit) {
   const list=custom||products;
   const term=(new URLSearchParams(location.search).get('search')||'').trim().toLowerCase();
   const filtered=term?list.filter(p=>`${p.id} ${p.name} ${p.cat} ${p.spec}`.toLowerCase().includes(term)):list;
-  document.querySelector(target).innerHTML=filtered.length?filtered.slice(0,limit||99).map(p=>`<article class="product" data-cat="${p.cat}"><div class="product-img" style="--pos:${p.pos}"></div><div class="product-body"><span class="tag">${p.id}</span><h3>${p.name}</h3><p class="specs">${p.spec}</p><div class="product-row"><span>MOQ 500 pcs</span><a class="btn sage" href="contact.html?product=${encodeURIComponent(p.name)}#inquiry">Inquire &rarr;</a></div></div></article>`).join(''):`<div class="search-empty"><h3>No products found</h3><p>Try another keyword or <a href="products.html"><u>view all products</u></a>.</p></div>`;
+  document.querySelector(target).innerHTML=filtered.length?filtered.slice(0,limit||99).map(p=>{
+    const href=p.href||`contact.html?product=${encodeURIComponent(p.name)}#inquiry`;
+    const media=p.image?`<img src="${p.image}" alt="${p.name}" loading="lazy">`:'';
+    const style=p.image?'':` style="--pos:${p.pos}"`;
+    return `<article class="product" data-cat="${p.cat}"><a class="product-img" href="${href}"${style}>${media}</a><div class="product-body"><span class="tag">${p.id}</span><h3><a href="${href}">${p.name}</a></h3><p class="specs">${p.spec}</p><div class="product-row"><span>MOQ ${p.moq||'500 pcs'}</span><a class="btn sage" href="${href}">${p.href?'View details':'Inquire'} &rarr;</a></div></div></article>`;
+  }).join(''):`<div class="search-empty"><h3>No products found</h3><p>Try another keyword or <a href="products.html"><u>view all products</u></a>.</p></div>`;
 }
