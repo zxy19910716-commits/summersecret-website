@@ -51,9 +51,9 @@
 .hero h1 .hero-line-accent{color:var(--sage)}
 .hero .lead{max-width:610px;margin-bottom:0;font-size:17px;line-height:1.7}
 .hero-actions{margin-top:27px}
-.hero-actions .btn{min-width:232px;padding:14px 16px 14px 22px;justify-content:flex-start;gap:18px}
-.hero-actions .btn span{width:26px;height:26px;margin-left:auto;border:1px solid rgba(255,255,255,.42);border-radius:6px;display:grid;place-items:center;font-size:15px;line-height:1;transition:transform .2s ease,background .2s ease}
-.hero-actions .btn:hover span{transform:translateX(2px);background:rgba(255,255,255,.12)}
+.hero-actions .btn{min-width:232px;padding:14px 24px;justify-content:center;gap:10px}
+.hero-actions .btn span{width:auto;height:auto;margin-left:0;border:0;border-radius:0;display:inline;font-size:16px;line-height:1;transition:transform .2s ease}
+.hero-actions .btn:hover span{transform:translateX(3px);background:transparent}
 .rtl .hero{background:linear-gradient(270deg,rgba(248,246,240,.76) 0%,rgba(248,246,240,.6) 38%,rgba(248,246,240,.04) 64%),url('assets/hero-v2.webp') center/cover}
 @media(max-width:900px){.hero-copy{width:min(620px,92%)}.hero h1 .hero-line{white-space:normal}}
 @media(max-width:600px){.hero{min-height:660px;background:linear-gradient(rgba(248,246,240,.86),rgba(248,246,240,.8)),url('assets/hero-v2.webp') 68% center/cover}.hero-copy{width:100%;padding:54px 0 44px}.hero .eyebrow{margin-bottom:16px;font-size:10px}.hero h1{margin-bottom:20px;font-size:clamp(40px,12.5vw,50px);line-height:1.02}.hero .lead{font-size:16px;line-height:1.62}.hero-actions{margin-top:24px}.hero-actions .btn{min-width:220px}}
@@ -117,4 +117,8 @@
 .article-cta h2{margin:0;font-size:34px}.article-cta .eyebrow{margin-bottom:9px}
 @media(max-width:900px){.blog-grid{grid-template-columns:1fr 1fr}.article-cta{align-items:flex-start;flex-direction:column}}
 @media(max-width:600px){.blog-grid{grid-template-columns:1fr}.blog-listing{padding-top:50px}.article-header{padding-top:60px;padding-bottom:34px}.article-header h1{font-size:clamp(40px,12vw,54px)}.article-deck{font-size:17px}.article-image img{border-radius:18px}.article-body{padding-top:48px;font-size:17px;line-height:1.78}.article-body .article-intro{font-size:19px}.article-body h2{margin-top:42px;font-size:29px}.article-note{padding:25px 24px}.article-cta{margin-top:58px;padding:30px 26px}.article-cta h2{font-size:29px}}
+
+/* Keep the buyer-story headline on one elegant line at desktop widths. */
+.section-head .buyer-stories-title{max-width:none;font-size:clamp(34px,3.4vw,52px);white-space:nowrap}
+@media(max-width:900px){.section-head .buyer-stories-title{white-space:normal}}
 
