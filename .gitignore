@@ -1,0 +1,8 @@
+# Local source photography and working files
+assets/*-raw-*.*
+assets/about-company-v2.png
+assets/why-studio-v4.webp
+
+# Local diagnostics and visual QA screenshots
+gcm-diagnose.log
+layout-*.png
