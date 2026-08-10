@@ -141,5 +141,6 @@
 
 /* Remove the oversized transition gap before buyer stories. */
 .buyer-stories-section{padding-top:42px}
+.buyer-stories-section .quote footer{font-weight:700;color:var(--sage)}
 @media(max-width:600px){.buyer-stories-section{padding-top:32px}}
 
