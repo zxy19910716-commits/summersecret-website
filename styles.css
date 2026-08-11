@@ -242,10 +242,15 @@ section{padding-top:76px;padding-bottom:76px}
 .admin-main{min-width:0}
 @media(max-width:900px){.admin-main{width:100%;max-width:100%}.admin-panel{width:100%;max-width:100%;min-width:0}.admin-panel .section-head{align-items:flex-start}}
 
-/* Match project detail controls to the compact monospaced product-label style. */
-#quote .field select,
-#quote .field textarea,
-#quote .field textarea::placeholder{
-  font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;
+/* Use one compact monospaced typeface for every editable or selectable value. */
+input,
+select,
+textarea,
+option{
+  font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace!important;
+}
+input::placeholder,
+textarea::placeholder{
+  font-family:inherit;
 }
 
