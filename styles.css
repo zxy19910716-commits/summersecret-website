@@ -254,3 +254,12 @@ textarea::placeholder{
   font-family:inherit;
 }
 
+/* Match product filters to the uppercase navigation typography. */
+.filters .filter{
+  font-family:Arial,"Helvetica Neue",sans-serif;
+  font-size:13px;
+  font-weight:400;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
