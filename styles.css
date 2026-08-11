@@ -152,7 +152,7 @@
 
 /* OEM / ODM: stronger left-hand story and a clear project action. */
 .oem-intro>p:not(.eyebrow){max-width:420px;margin-bottom:26px;font-size:17px;line-height:1.65}
-.oem-button{background:#fff;border-color:#fff;color:var(--ink)}
+.oem-button{background:var(--ink);border-color:var(--ink);color:#fff}
 .oem-button:hover{box-shadow:0 10px 26px rgba(38,51,45,.16)}
 .oem-capabilities{margin:22px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:13px 28px}
 .oem-capabilities li{position:relative;padding-left:18px;font-size:15px;line-height:1.5;color:var(--muted)}
