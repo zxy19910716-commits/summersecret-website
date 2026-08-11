@@ -12,6 +12,57 @@
       font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
     }
   </style>
+  <style id="contact-heading-final-refinement">
+    .contact-form-heading,
+    h2[style*="font-size:42px"] {
+      font-size: clamp(30px, 2.4vw, 38px) !important;
+      font-weight: 400;
+      line-height: 1.08;
+      letter-spacing: 0.01em;
+    }
+
+    .contact-info-heading,
+    h2[style*="font-size:40px"] {
+      font-size: clamp(27px, 2vw, 32px) !important;
+      font-weight: 400;
+      line-height: 1.08;
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 980px) {
+      .contact-info-heading,
+      h2[style*="font-size:40px"] {
+        white-space: normal;
+      }
+    }
+  </style>
+  <style id="contact-heading-sizing-fix">
+    /* Refined contact-page headings: lighter, calmer and better proportioned. */
+    .contact-form-heading,
+    h2[style*="font-size:42px"] {
+      font-size: clamp(30px, 2.4vw, 38px) !important;
+      font-weight: 400 !important;
+      line-height: 1.08;
+      letter-spacing: 0.01em;
+    }
+
+    .contact-info-heading,
+    h2[style*="font-size:40px"] {
+      font-size: clamp(27px, 2vw, 32px) !important;
+      font-weight: 400 !important;
+      line-height: 1.08;
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 980px) {
+      .contact-info-heading,
+      h2[style*="font-size:40px"] {
+        white-space: normal;
+      }
+    }
+  </style>
 </head>
 <body>
   <div id="site-header"></div>
