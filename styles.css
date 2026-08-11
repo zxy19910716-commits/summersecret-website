@@ -225,6 +225,7 @@ section{padding-top:76px;padding-bottom:76px}
 /* OEM / ODM: clearer hierarchy and balanced, scannable capability rows. */
 #oem .story-grid{grid-template-columns:minmax(360px,.82fr) minmax(560px,1.18fr);gap:72px}
 #oem .oem-intro h2{max-width:510px;margin-bottom:24px;font-size:clamp(44px,4.6vw,62px)}
+#oem .oem-intro .btn.light{background:var(--ink);border-color:var(--ink);color:#fff}
 @media(min-width:601px){#oem .oem-title-line{white-space:nowrap}}
 #oem .oem-card{padding:38px 40px;border-radius:26px;box-shadow:0 16px 44px rgba(38,51,45,.1)}
 .oem-card-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;padding-bottom:20px;border-bottom:1px solid var(--line)}
@@ -239,4 +240,11 @@ section{padding-top:76px;padding-bottom:76px}
 /* Keep the portable site manager contained on narrow screens. */
 .admin-main{min-width:0}
 @media(max-width:900px){.admin-main{width:100%;max-width:100%}.admin-panel{width:100%;max-width:100%;min-width:0}.admin-panel .section-head{align-items:flex-start}}
+
+/* Match project detail controls to the compact monospaced product-label style. */
+#quote .field select,
+#quote .field textarea,
+#quote .field textarea::placeholder{
+  font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;
+}
 
