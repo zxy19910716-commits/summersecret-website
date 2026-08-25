@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-V734',name:'Sculptural Hands Ceramic Vase Set',cat:'vases',spec:'Ceramic · Small & large sizes · From US$4.00',image:'assets/sculptural-hands-ceramic-vase-1.png',href:'sculptural-hands-ceramic-vase-set.html',moq:'20 pcs'},
   {id:'SS-C901',name:'Russian Vintage Doll Candle',cat:'candles',spec:'Soy wax & beeswax · 7 × 7 × 10.3 cm · 210 g',image:'assets/russian-vintage-doll-candle-1.webp',href:'russian-vintage-doll-candle.html',moq:'300 pcs'},
   {id:'SS-C902',name:'Realistic Grape Cluster Candle',cat:'candles',spec:'Beeswax & honey wax · 33/36/39 grapes · Gift box',image:'assets/realistic-grape-cluster-candle-1.webp',href:'realistic-grape-cluster-candle.html',moq:'10 boxes'},
   {id:'SS-CH205',name:'Ring Handle Ceramic Candle Holder',cat:'holders',spec:'Ceramic · Ø15 × H12.7 cm · US$4.30/pc',image:'assets/ring-handle-ceramic-candle-holder-1.png',href:'ring-handle-ceramic-candle-holder.html',moq:'50 pcs'},
