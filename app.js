@@ -37,7 +37,7 @@ function submitInquiry(e) {
   const list=JSON.parse(localStorage.getItem('ss-inquiries')||'[]');
   list.unshift(data);
   localStorage.setItem('ss-inquiries',JSON.stringify(list));
-  alert('Thank you! Your inquiry has been recorded. We will reply via summerhome@aliyun.com within 12 hours.');
+  alert('Thank you! Your inquiry has been recorded. We will reply via info@summersecret.cn within 12 hours.');
   e.target.reset();
 }
 
