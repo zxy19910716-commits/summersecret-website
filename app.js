@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-V735',name:'Vintage Wabi-Sabi Ceramic Vase Set',cat:'vases',spec:'Ceramic · White & brown · From US$9.00',image:'assets/vintage-wabi-sabi-ceramic-vase-1.png',href:'vintage-wabi-sabi-ceramic-vase-set.html',moq:'20 pcs'},
   {id:'SS-V734',name:'Sculptural Hands Ceramic Vase Set',cat:'vases',spec:'Ceramic · Small & large sizes · From US$4.00',image:'assets/sculptural-hands-ceramic-vase-1.png',href:'sculptural-hands-ceramic-vase-set.html',moq:'20 pcs'},
   {id:'SS-C901',name:'Russian Vintage Doll Candle',cat:'candles',spec:'Soy wax & beeswax · 7 × 7 × 10.3 cm · 210 g',image:'assets/russian-vintage-doll-candle-1.webp',href:'russian-vintage-doll-candle.html',moq:'300 pcs'},
   {id:'SS-C902',name:'Realistic Grape Cluster Candle',cat:'candles',spec:'Beeswax & honey wax · 33/36/39 grapes · Gift box',image:'assets/realistic-grape-cluster-candle-1.webp',href:'realistic-grape-cluster-candle.html',moq:'10 boxes'},
