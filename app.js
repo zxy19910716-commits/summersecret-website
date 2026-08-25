@@ -1,6 +1,7 @@
 const products = [
   {id:'SS-C901',name:'Russian Vintage Doll Candle',cat:'candles',spec:'Soy wax & beeswax · 7 × 7 × 10.3 cm · 210 g',image:'assets/russian-vintage-doll-candle-1.webp',href:'russian-vintage-doll-candle.html',moq:'300 pcs'},
   {id:'SS-C902',name:'Realistic Grape Cluster Candle',cat:'candles',spec:'Beeswax & honey wax · 33/36/39 grapes · Gift box',image:'assets/realistic-grape-cluster-candle-1.webp',href:'realistic-grape-cluster-candle.html',moq:'10 boxes'},
+  {id:'SS-CH205',name:'Ring Handle Ceramic Candle Holder',cat:'holders',spec:'Ceramic · Ø15 × H12.7 cm · US$4.30/pc',image:'assets/ring-handle-ceramic-candle-holder-1.png',href:'ring-handle-ceramic-candle-holder.html',moq:'50 pcs'},
   {id:'SS-V101',name:'Ribbed Ceramic Vase',cat:'vases',spec:'Stoneware · H28 cm · Matte glaze',pos:'5% 8%'},
   {id:'SS-CH204',name:'Arch Candle Holder',cat:'holders',spec:'Stoneware · H18 cm · Reactive glaze',pos:'47% 8%'},
   {id:'SS-C307',name:'Morandi Pillar Candle Set',cat:'candles',spec:'Paraffin/soy blend · 3 sizes',pos:'90% 8%'},
