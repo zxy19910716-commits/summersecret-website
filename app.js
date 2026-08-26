@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-M413',name:'Hand-Pinched Ceramic Mug',cat:'tableware',spec:'Ceramic · 300 ml · Ø8 × H9 cm · US$4.50/pc',image:'assets/hand-pinched-ceramic-mug-1.webp',href:'hand-pinched-ceramic-mug.html',moq:'20 pcs'},
   {id:'SS-V736',name:'Irregular Sculptural Glass Vase & Candle Holder',cat:'vases',spec:'Glass · 12 × 12 cm · Multiple colors · US$3.50/pc',image:'assets/irregular-sculptural-glass-vase-1.png',href:'irregular-sculptural-glass-vase-candle-holder.html',moq:'20 pcs'},
   {id:'SS-V735',name:'Vintage Wabi-Sabi Ceramic Vase Set',cat:'vases',spec:'Ceramic · White & brown · From US$9.00',image:'assets/vintage-wabi-sabi-ceramic-vase-1.png',href:'vintage-wabi-sabi-ceramic-vase-set.html',moq:'20 pcs'},
   {id:'SS-V734',name:'Sculptural Hands Ceramic Vase Set',cat:'vases',spec:'Ceramic · Small & large sizes · From US$4.00',image:'assets/sculptural-hands-ceramic-vase-1.png',href:'sculptural-hands-ceramic-vase-set.html',moq:'20 pcs'},
