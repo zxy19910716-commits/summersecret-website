@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-V739',name:'Hand-Painted Boot Ceramic Vase',cat:'vases',spec:'Ceramic · W13.5 × H15.5 cm · US$5.50/pc',image:'assets/hand-painted-boot-ceramic-vase-1.webp',href:'hand-painted-boot-ceramic-vase.html',moq:'20 pcs'},
   {id:'SS-V738',name:'Creative Ceramic Body Vase',cat:'vases',spec:'Ceramic · 3 matte finishes · US$5.50/pc',image:'assets/creative-ceramic-body-vase-1.webp',href:'creative-ceramic-body-vase.html',moq:'20 pcs'},
   {id:'SS-V737',name:'Creative White Ceramic Flower Vase',cat:'vases',spec:'Ceramic · W12 × H19.5 cm · US$6.50/pc',image:'assets/creative-white-ceramic-flower-vase-1.webp',href:'creative-white-ceramic-flower-vase.html',moq:'20 pcs'},
   {id:'SS-M413',name:'Hand-Pinched Ceramic Mug',cat:'tableware',spec:'Ceramic · 300 ml · Ø8 × H9 cm · US$4.50/pc',image:'assets/hand-pinched-ceramic-mug-1.webp',href:'hand-pinched-ceramic-mug.html',moq:'20 pcs'},
