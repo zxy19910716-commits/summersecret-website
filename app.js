@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-V738',name:'Creative Ceramic Body Vase',cat:'vases',spec:'Ceramic · 3 matte finishes · US$5.50/pc',image:'assets/creative-ceramic-body-vase-1.webp',href:'creative-ceramic-body-vase.html',moq:'20 pcs'},
   {id:'SS-V737',name:'Creative White Ceramic Flower Vase',cat:'vases',spec:'Ceramic · W12 × H19.5 cm · US$6.50/pc',image:'assets/creative-white-ceramic-flower-vase-1.webp',href:'creative-white-ceramic-flower-vase.html',moq:'20 pcs'},
   {id:'SS-M413',name:'Hand-Pinched Ceramic Mug',cat:'tableware',spec:'Ceramic · 300 ml · Ø8 × H9 cm · US$4.50/pc',image:'assets/hand-pinched-ceramic-mug-1.webp',href:'hand-pinched-ceramic-mug.html',moq:'20 pcs'},
   {id:'SS-V736',name:'Irregular Sculptural Glass Vase & Candle Holder',cat:'vases',spec:'Glass · 12 × 12 cm · Multiple colors · US$3.50/pc',image:'assets/irregular-sculptural-glass-vase-1.webp',href:'irregular-sculptural-glass-vase-candle-holder.html',moq:'20 pcs'},
