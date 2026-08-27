@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-V742',name:'Twist Ceramic Vase for Home Décor',cat:'vases',spec:'Ceramic · W18 × H13.5 cm · US$6.50/pc',image:'assets/twist-ceramic-vase-home-decor-1.webp',href:'twist-ceramic-vase-home-decor.html',moq:'20 pcs'},
   {id:'SS-V741',name:'Minimalist White Ceramic Vase Décor',cat:'vases',spec:'Ceramic · W14.2 × H17.3 cm · US$6.50/pc',image:'assets/minimalist-white-ceramic-vase-decor-1.webp',href:'minimalist-white-ceramic-vase-decor.html',moq:'20 pcs'},
   {id:'SS-V740',name:'White Ring Ceramic Vase Décor',cat:'vases',spec:'Ceramic · W18.6 × H16 cm · US$5.20/pc',image:'assets/white-ring-ceramic-vase-decor-1.webp',href:'white-ring-ceramic-vase-decor.html',moq:'20 pcs'},
   {id:'SS-V739',name:'Hand-Painted Boot Ceramic Vase',cat:'vases',spec:'Ceramic · W13.5 × H15.5 cm · US$5.50/pc',image:'assets/hand-painted-boot-ceramic-vase-1.webp',href:'hand-painted-boot-ceramic-vase.html',moq:'20 pcs'},
