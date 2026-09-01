@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-M416',name:'Christmas Ceramic Coffee Cup & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 160 ml · US$5.50/set',image:'assets/christmas-ceramic-coffee-cup-saucer-set-1.webp',href:'christmas-ceramic-coffee-cup-saucer-set.html',moq:'2 sets'},
   {id:'SS-M415',name:'Petal-Shaped Ceramic Coffee Cup & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 230 ml · US$4.30/set',image:'assets/petal-shaped-ceramic-coffee-cup-saucer-set-1.webp',href:'petal-shaped-ceramic-coffee-cup-saucer-set.html',moq:'20 sets'},
   {id:'SS-M414',name:'French Vintage Hera Rabbit Pedestal Coffee Mug',cat:'tableware',spec:'Ceramic · 300 ml · US$4.30/pc',image:'assets/french-vintage-hera-rabbit-pedestal-coffee-mug-1.webp',href:'french-vintage-hera-rabbit-pedestal-coffee-mug.html',moq:'36 pcs'},
   {id:'SS-V742',name:'Twist Ceramic Vase for Home Décor',cat:'vases',spec:'Ceramic · W18 × H13.5 cm · US$6.50/pc',image:'assets/twist-ceramic-vase-home-decor-1.webp',href:'twist-ceramic-vase-home-decor.html',moq:'20 pcs'},
