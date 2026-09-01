@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-V743',name:'Bohemian Geometric Bisque Ceramic Vase Set',cat:'vases',spec:'3-Piece Ceramic Vase Set · Natural Ivory & Black · US$7.00/set',image:'assets/bohemian-geometric-bisque-ceramic-vase-set-1.webp',href:'bohemian-geometric-bisque-ceramic-vase-set.html',moq:'2 sets'},
   {id:'SS-M417',name:'Tulip Flower Ceramic Coffee Cup & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 320 ml · From US$5.50/set',image:'assets/tulip-flower-ceramic-coffee-cup-saucer-set-1.webp',href:'tulip-flower-ceramic-coffee-cup-saucer-set.html',moq:'2 sets'},
   {id:'SS-M416',name:'Christmas Ceramic Coffee Cup & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 160 ml · US$5.50/set',image:'assets/christmas-ceramic-coffee-cup-saucer-set-1.webp',href:'christmas-ceramic-coffee-cup-saucer-set.html',moq:'2 sets'},
   {id:'SS-M415',name:'Petal-Shaped Ceramic Coffee Cup & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 230 ml · US$4.30/set',image:'assets/petal-shaped-ceramic-coffee-cup-saucer-set-1.webp',href:'petal-shaped-ceramic-coffee-cup-saucer-set.html',moq:'20 sets'},
