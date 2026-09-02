@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-V745',name:'Mid-Century Ribbed Ceramic Vase',cat:'vases',spec:'Ceramic · Small & Large · White & Black · From US$4.50/pc',image:'assets/mid-century-ribbed-ceramic-vase-1.webp',href:'mid-century-ribbed-ceramic-vase.html',moq:'2 pcs'},
   {id:'SS-V744',name:'Wabi-Sabi Luxury Ribbed Ceramic Vase',cat:'vases',spec:'Ceramic · Ivory & Black · US$5.20/pc',image:'assets/wabi-sabi-luxury-ribbed-ceramic-vase-1.webp',href:'wabi-sabi-luxury-ribbed-ceramic-vase.html',moq:'2 pcs'},
   {id:'SS-M418',name:'Cute Pastel Illustrated Ceramic Mug',cat:'tableware',spec:'Ceramic Mug · 300 ml · W11.3 × H6.3 cm · US$4.50/pc',image:'assets/cute-pastel-illustrated-ceramic-mug-1.webp',href:'cute-pastel-illustrated-ceramic-mug.html',moq:'2 pcs'},
   {id:'SS-V743',name:'Bohemian Geometric Bisque Ceramic Vase Set',cat:'vases',spec:'3-Piece Ceramic Vase Set · Natural Ivory & Black · US$7.00/set',image:'assets/bohemian-geometric-bisque-ceramic-vase-set-1.webp',href:'bohemian-geometric-bisque-ceramic-vase-set.html',moq:'2 sets'},
