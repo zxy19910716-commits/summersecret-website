@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-M418',name:'Cute Pastel Illustrated Ceramic Mug',cat:'tableware',spec:'Ceramic Mug · 300 ml · W11.3 × H6.3 cm · US$4.50/pc',image:'assets/cute-pastel-illustrated-ceramic-mug-1.webp',href:'cute-pastel-illustrated-ceramic-mug.html',moq:'2 pcs'},
   {id:'SS-V743',name:'Bohemian Geometric Bisque Ceramic Vase Set',cat:'vases',spec:'3-Piece Ceramic Vase Set · Natural Ivory & Black · US$7.00/set',image:'assets/bohemian-geometric-bisque-ceramic-vase-set-1.webp',href:'bohemian-geometric-bisque-ceramic-vase-set.html',moq:'2 sets'},
   {id:'SS-M417',name:'Tulip Flower Ceramic Coffee Cup & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 320 ml · From US$5.50/set',image:'assets/tulip-flower-ceramic-coffee-cup-saucer-set-1.webp',href:'tulip-flower-ceramic-coffee-cup-saucer-set.html',moq:'2 sets'},
   {id:'SS-M416',name:'Christmas Ceramic Coffee Cup & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 160 ml · US$5.50/set',image:'assets/christmas-ceramic-coffee-cup-saucer-set-1.webp',href:'christmas-ceramic-coffee-cup-saucer-set.html',moq:'2 sets'},
