@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-M419',name:'French Vintage Reactive Glaze Ceramic Cup & Tableware Collection',cat:'tableware',spec:'Ceramic Mug, Bowl & Plate · White & Green · From US$3.40/pc',image:'assets/french-vintage-reactive-glaze-ceramic-tableware-1.webp',href:'french-vintage-reactive-glaze-ceramic-tableware.html',moq:'2 pcs'},
   {id:'SS-V745',name:'Mid-Century Ribbed Ceramic Vase',cat:'vases',spec:'Ceramic · Small & Large · White & Black · From US$4.50/pc',image:'assets/mid-century-ribbed-ceramic-vase-1.webp',href:'mid-century-ribbed-ceramic-vase.html',moq:'2 pcs'},
   {id:'SS-V744',name:'Wabi-Sabi Luxury Ribbed Ceramic Vase',cat:'vases',spec:'Ceramic · Ivory & Black · US$5.20/pc',image:'assets/wabi-sabi-luxury-ribbed-ceramic-vase-1.webp',href:'wabi-sabi-luxury-ribbed-ceramic-vase.html',moq:'2 pcs'},
   {id:'SS-M418',name:'Cute Pastel Illustrated Ceramic Mug',cat:'tableware',spec:'Ceramic Mug · 300 ml · W11.3 × H6.3 cm · US$4.50/pc',image:'assets/cute-pastel-illustrated-ceramic-mug-1.webp',href:'cute-pastel-illustrated-ceramic-mug.html',moq:'2 pcs'},
