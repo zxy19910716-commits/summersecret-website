@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-M422',name:'Luxury Vintage Ceramic Coffee Cup & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 250 ml · Brown, Green, Red & White · US$5.70/set',image:'assets/luxury-vintage-ceramic-coffee-cup-saucer-set-1.webp',href:'luxury-vintage-ceramic-coffee-cup-saucer-set.html',moq:'2 sets'},
   {id:'SS-M421',name:'Conch & Seashell Ceramic Vase Set',cat:'vases',spec:'White Ceramic · 3 Sculptural Styles · From US$5.50/pc',image:'assets/conch-seashell-ceramic-vase-1.webp',href:'conch-seashell-ceramic-vase-set.html',moq:'2 pcs'},
   {id:'SS-M420',name:'Hand-Painted Striped Ceramic Coffee Cup Set',cat:'tableware',spec:'Ceramic Mug Set · 280 ml · Green, Orange & Blue · From US$6.50/set',image:'assets/hand-painted-striped-ceramic-coffee-cup-set-1.webp',href:'hand-painted-striped-ceramic-coffee-cup-set.html',moq:'2 sets'},
   {id:'SS-M419',name:'French Vintage Reactive Glaze Ceramic Cup & Tableware Collection',cat:'tableware',spec:'Ceramic Mug, Bowl & Plate · White & Green · From US$3.40/pc',image:'assets/french-vintage-reactive-glaze-ceramic-tableware-1.webp',href:'french-vintage-reactive-glaze-ceramic-tableware.html',moq:'2 pcs'},
