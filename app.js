@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-M424',name:'Cute Hand-Pinched Ceramic Mug',cat:'tableware',spec:'Ceramic Mug · Approx. 300 ml · Assorted Patterns · US$4.00/pc',image:'assets/cute-hand-pinched-ceramic-mug-1.webp',href:'cute-hand-pinched-ceramic-mug.html',moq:'30 pcs'},
   {id:'SS-M423',name:'Hand-Painted Blue Sky Cloud 3D Ceramic Cup & Teapot Collection',cat:'tableware',spec:'Ceramic Mug & Teapot · Blue · From US$5.40/pc',image:'assets/hand-painted-blue-sky-cloud-ceramic-cup-teapot-1.webp',href:'hand-painted-blue-sky-cloud-ceramic-cup-teapot.html',moq:'36 pcs'},
   {id:'SS-M422',name:'Luxury Vintage Ceramic Coffee Cup & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 250 ml · Brown, Green, Red & White · US$5.70/set',image:'assets/luxury-vintage-ceramic-coffee-cup-saucer-set-1.webp',href:'luxury-vintage-ceramic-coffee-cup-saucer-set.html',moq:'2 sets'},
   {id:'SS-M421',name:'Conch & Seashell Ceramic Vase Set',cat:'vases',spec:'White Ceramic · 3 Sculptural Styles · From US$5.50/pc',image:'assets/conch-seashell-ceramic-vase-1.webp',href:'conch-seashell-ceramic-vase-set.html',moq:'2 pcs'},
