@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-M421',name:'Conch & Seashell Ceramic Vase Set',cat:'vases',spec:'White Ceramic · 3 Sculptural Styles · From US$5.50/pc',image:'assets/conch-seashell-ceramic-vase-1.webp',href:'conch-seashell-ceramic-vase-set.html',moq:'2 pcs'},
   {id:'SS-M420',name:'Hand-Painted Striped Ceramic Coffee Cup Set',cat:'tableware',spec:'Ceramic Mug Set · 280 ml · Green, Orange & Blue · From US$6.50/set',image:'assets/hand-painted-striped-ceramic-coffee-cup-set-1.webp',href:'hand-painted-striped-ceramic-coffee-cup-set.html',moq:'2 sets'},
   {id:'SS-M419',name:'French Vintage Reactive Glaze Ceramic Cup & Tableware Collection',cat:'tableware',spec:'Ceramic Mug, Bowl & Plate · White & Green · From US$3.40/pc',image:'assets/french-vintage-reactive-glaze-ceramic-tableware-1.webp',href:'french-vintage-reactive-glaze-ceramic-tableware.html',moq:'2 pcs'},
   {id:'SS-V745',name:'Mid-Century Ribbed Ceramic Vase',cat:'vases',spec:'Ceramic · Small & Large · White & Black · From US$4.50/pc',image:'assets/mid-century-ribbed-ceramic-vase-1.webp',href:'mid-century-ribbed-ceramic-vase.html',moq:'2 pcs'},
