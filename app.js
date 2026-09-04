@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-M425',name:'Christmas Ceramic Mug',cat:'tableware',spec:'XMAS Series · Ceramic Mug · Approx. 330 ml · White, Red & Green · US$4.30/pc',image:'assets/christmas-ceramic-mug-1.webp',href:'christmas-ceramic-mug.html',moq:'2 pcs'},
   {id:'SS-M424',name:'Cute Hand-Pinched Ceramic Mug',cat:'tableware',spec:'Ceramic Mug · Approx. 300 ml · Assorted Patterns · US$4.00/pc',image:'assets/cute-hand-pinched-ceramic-mug-1.webp',href:'cute-hand-pinched-ceramic-mug.html',moq:'30 pcs'},
   {id:'SS-M423',name:'Hand-Painted Blue Sky Cloud 3D Ceramic Cup & Teapot Collection',cat:'tableware',spec:'Ceramic Mug & Teapot · Blue · From US$5.40/pc',image:'assets/hand-painted-blue-sky-cloud-ceramic-cup-teapot-1.webp',href:'hand-painted-blue-sky-cloud-ceramic-cup-teapot.html',moq:'36 pcs'},
   {id:'SS-M422',name:'Luxury Vintage Ceramic Coffee Cup & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 250 ml · Brown, Green, Red & White · US$5.70/set',image:'assets/luxury-vintage-ceramic-coffee-cup-saucer-set-1.webp',href:'luxury-vintage-ceramic-coffee-cup-saucer-set.html',moq:'2 sets'},
