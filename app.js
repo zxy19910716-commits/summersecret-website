@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-C904',name:'Handmade Bubble Candle',cat:'candles',spec:'Soy Wax & Beeswax · 6 × 6 × 6 cm · 150 g · From US$1.80/pc',image:'assets/handmade-bubble-candle-1.webp',href:'handmade-bubble-candle.html',moq:'30 pcs'},
   {id:'SS-C903',name:'Handmade Soy Wax Pillar Candle',cat:'candles',spec:'Soy Wax & Beeswax · Ø5 × H7.5/15 cm · From US$2.50/pc',image:'assets/handmade-soy-wax-pillar-candle-1.webp',href:'handmade-soy-wax-pillar-candle.html',moq:'30 pcs'},
   {id:'SS-M426',name:'Christmas Ceramic Plate & Bowl Collection',cat:'tableware',spec:'XMAS Series · Ceramic Plate & Bowl · White, Red & Green · From US$4.30/pc',image:'assets/christmas-ceramic-plate-bowl-1.webp',href:'christmas-ceramic-plate-bowl.html',moq:'2 pcs'},
   {id:'SS-M425',name:'Christmas Ceramic Mug',cat:'tableware',spec:'XMAS Series · Ceramic Mug · Approx. 330 ml · White, Red & Green · US$4.30/pc',image:'assets/christmas-ceramic-mug-1.webp',href:'christmas-ceramic-mug.html',moq:'2 pcs'},
