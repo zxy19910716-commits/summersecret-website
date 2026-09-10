@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-C907',name:'Handmade Soy Wax Twist Candle',cat:'candles',spec:'Soy Wax & Beeswax · Ø2 × H20 cm · 45 g · From US$1.80/pc',image:'assets/handmade-soy-wax-twist-candle-1.jpg',href:'handmade-soy-wax-twist-candle.html',moq:'30 pcs'},
   {id:'SS-C906',name:'Luxury Venus de Milo Sculpture Candle',cat:'candles',spec:'Soy Wax & Beeswax · 24.5 × 7.5 × 5 cm · 336 g · From US$5.00/pc',image:'assets/luxury-venus-de-milo-sculpture-candle-1.webp',href:'luxury-venus-de-milo-sculpture-candle.html',moq:'30 pcs'},
   {id:'SS-C905',name:'Luxury Handmade David Sculpture Candle',cat:'candles',spec:'Soy Wax & Beeswax · 10 × 15 cm · 500 g · From US$3.89/pc',image:'assets/luxury-handmade-david-sculpture-candle-1.webp',href:'luxury-handmade-david-sculpture-candle.html',moq:'30 pcs'},
   {id:'SS-C904',name:'Handmade Bubble Candle',cat:'candles',spec:'Soy Wax & Beeswax · 6 × 6 × 6 cm · 150 g · From US$1.80/pc',image:'assets/handmade-bubble-candle-1.webp',href:'handmade-bubble-candle.html',moq:'30 pcs'},
