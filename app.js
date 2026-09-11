@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-CA202',name:'Multicolor Metal Candle Snuffer',cat:'tools',spec:'Metal · 3.3 × 4.5 × 16.5 cm · 40 g · US$2.00/pc',image:'assets/multicolor-metal-candle-snuffer-1.jpg',href:'multicolor-metal-candle-snuffer.html',moq:'20 pcs'},
   {id:'SS-CA201',name:'Round Acacia Wood Coffee & Aroma Tray Set',cat:'tools',spec:'Acacia Wood · Ø4 in · Kraft Box · US$4.00/set',image:'assets/round-acacia-wood-coffee-aroma-tray-set-4.jpg',href:'round-acacia-wood-coffee-aroma-tray-set.html',moq:'200 sets'},
   {id:'SS-CH208',name:'Creative Nordic Ceramic Taper Candle Holder',cat:'holders',spec:'Matte Ceramic · Ø10.5 × H4.5 cm · US$3.00/pc',image:'assets/creative-nordic-ceramic-taper-candle-holder-3.jpg',href:'creative-nordic-ceramic-taper-candle-holder.html',moq:'20 pcs'},
   {id:'SS-M427',name:'Handheld Ceramic Coffee Tumbler with Straw Port',cat:'tableware',spec:'Ceramic Mug · 480 ml · Ø9.2 × H11 cm · 450 g · US$4.20/pc',image:'assets/handheld-ceramic-coffee-tumbler-straw-port-1.jpg',href:'handheld-ceramic-coffee-tumbler-straw-port.html',moq:'20 pcs'},
