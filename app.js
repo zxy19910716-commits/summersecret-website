@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-CH208',name:'Creative Nordic Ceramic Taper Candle Holder',cat:'holders',spec:'Matte Ceramic · Ø10.5 × H4.5 cm · US$3.00/pc',image:'assets/creative-nordic-ceramic-taper-candle-holder-1.jpg',href:'creative-nordic-ceramic-taper-candle-holder.html',moq:'20 pcs'},
   {id:'SS-M427',name:'Handheld Ceramic Coffee Tumbler with Straw Port',cat:'tableware',spec:'Ceramic Mug · 480 ml · Ø9.2 × H11 cm · 450 g · US$4.20/pc',image:'assets/handheld-ceramic-coffee-tumbler-straw-port-1.jpg',href:'handheld-ceramic-coffee-tumbler-straw-port.html',moq:'20 pcs'},
   {id:'SS-CH207',name:'Minimalist Creative Ceramic Triple Taper Candle Holder',cat:'holders',spec:'Matte Ceramic · 24 × 10.5 × 3.5 cm · 600 g · US$5.00/pc',image:'assets/minimalist-creative-ceramic-triple-taper-candle-holder-1.jpg',href:'minimalist-creative-ceramic-triple-taper-candle-holder.html',moq:'20 pcs'},
   {id:'SS-CH206',name:'Nordic Spiral Ceramic Taper Candle Holder',cat:'holders',spec:'Ceramic · Ø12 × H3.5 cm · 4 Colors · US$3.50/pc',image:'assets/nordic-spiral-ceramic-taper-candle-holder-1.jpg',href:'nordic-spiral-ceramic-taper-candle-holder.html',moq:'20 pcs'},
