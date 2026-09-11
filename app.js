@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-C909',name:'Handmade Arch Scented Soy Wax Candle',cat:'candles',spec:'Soy Wax & Beeswax · 12.1 × 6.1 × 3.8 cm · 206 g · From US$3.00/pc',image:'assets/handmade-arch-scented-soy-wax-candle-2.png',href:'handmade-arch-scented-soy-wax-candle.html',moq:'30 pcs'},
   {id:'SS-C908',name:'Soy Wax Spiral Scented Candle',cat:'candles',spec:'Soy Wax & Beeswax · Ø2.2 × H18 cm · 50 g · From US$1.80/pc',image:'assets/soy-wax-spiral-scented-candle-2.jpg',href:'soy-wax-spiral-scented-candle.html',moq:'30 pcs'},
   {id:'SS-C907',name:'Handmade Soy Wax Twist Candle',cat:'candles',spec:'Soy Wax & Beeswax · Ø2 × H20 cm · 45 g · From US$1.80/pc',image:'assets/handmade-soy-wax-twist-candle-1.jpg',href:'handmade-soy-wax-twist-candle.html',moq:'30 pcs'},
   {id:'SS-C906',name:'Luxury Venus de Milo Sculpture Candle',cat:'candles',spec:'Soy Wax & Beeswax · 24.5 × 7.5 × 5 cm · 336 g · From US$5.00/pc',image:'assets/luxury-venus-de-milo-sculpture-candle-1.webp',href:'luxury-venus-de-milo-sculpture-candle.html',moq:'30 pcs'},
