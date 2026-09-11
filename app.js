@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-CH206',name:'Nordic Spiral Ceramic Taper Candle Holder',cat:'holders',spec:'Ceramic · Ø12 × H3.5 cm · 4 Colors · US$3.50/pc',image:'assets/nordic-spiral-ceramic-taper-candle-holder-1.jpg',href:'nordic-spiral-ceramic-taper-candle-holder.html',moq:'20 pcs'},
   {id:'SS-C910',name:'Handmade Arch-Shaped Soy Wax Candle',cat:'candles',spec:'Soy Wax & Beeswax · 5.5 × 7.5 × 9 cm · 220 g · From US$2.00/pc',image:'assets/handmade-arch-shaped-soy-wax-candle-1.jpg',href:'handmade-arch-shaped-soy-wax-candle.html',moq:'30 pcs'},
   {id:'SS-C909',name:'Handmade Arch Scented Soy Wax Candle',cat:'candles',spec:'Soy Wax & Beeswax · 12.1 × 6.1 × 3.8 cm · 206 g · From US$3.00/pc',image:'assets/handmade-arch-scented-soy-wax-candle-2.png',href:'handmade-arch-scented-soy-wax-candle.html',moq:'30 pcs'},
   {id:'SS-C908',name:'Soy Wax Spiral Scented Candle',cat:'candles',spec:'Soy Wax & Beeswax · Ø2.2 × H18 cm · 50 g · From US$1.80/pc',image:'assets/soy-wax-spiral-scented-candle-2.jpg',href:'soy-wax-spiral-scented-candle.html',moq:'30 pcs'},
