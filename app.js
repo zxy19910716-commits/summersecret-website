@@ -38,15 +38,7 @@ const products = [
   {id:'SS-V734',name:'Sculptural Hands Ceramic Vase Set',cat:'vases',spec:'Ceramic · Small & large sizes · From US$4.00',image:'assets/sculptural-hands-ceramic-vase-1.webp',href:'sculptural-hands-ceramic-vase-set.html',moq:'20 pcs'},
   {id:'SS-C901',name:'Russian Vintage Doll Candle',cat:'candles',spec:'Soy wax & beeswax · 7 × 7 × 10.3 cm · 210 g',image:'assets/russian-vintage-doll-candle-1.webp',href:'russian-vintage-doll-candle.html',moq:'300 pcs'},
   {id:'SS-C902',name:'Realistic Grape Cluster Candle',cat:'candles',spec:'Beeswax & honey wax · 33/36/39 grapes · Gift box',image:'assets/realistic-grape-cluster-candle-1.webp',href:'realistic-grape-cluster-candle.html',moq:'10 boxes'},
-  {id:'SS-CH205',name:'Ring Handle Ceramic Candle Holder',cat:'holders',spec:'Ceramic · Ø15 × H12.7 cm · US$4.30/pc',image:'assets/ring-handle-ceramic-candle-holder-1.webp',href:'ring-handle-ceramic-candle-holder.html',moq:'50 pcs'},
-  {id:'SS-V101',name:'Ribbed Ceramic Vase',cat:'vases',spec:'Stoneware · H28 cm · Matte glaze',pos:'5% 8%'},
-  {id:'SS-CH204',name:'Arch Candle Holder',cat:'holders',spec:'Stoneware · H18 cm · Reactive glaze',pos:'47% 8%'},
-  {id:'SS-C307',name:'Morandi Pillar Candle Set',cat:'candles',spec:'Paraffin/soy blend · 3 sizes',pos:'90% 8%'},
-  {id:'SS-M412',name:'Speckled Studio Mug',cat:'tableware',spec:'Ceramic · 380 ml · Dishwasher safe',pos:'100% 5%'},
-  {id:'SS-P518',name:'Sage Dinner Plate Set',cat:'tableware',spec:'Stoneware · 21/27 cm · 2 pcs',pos:'5% 95%'},
-  {id:'SS-B620',name:'Nesting Bowl Set',cat:'tableware',spec:'Stoneware · 14/18 cm · 2 pcs',pos:'48% 95%'},
-  {id:'SS-V733',name:'Reactive Glaze Bud Vase',cat:'vases',spec:'Ceramic · H16 cm · Hand-finished',pos:'72% 95%'},
-  {id:'SS-D840',name:'Artisan Dinnerware Set',cat:'tableware',spec:'Stoneware · 12 pcs · Custom color',pos:'100% 95%'}
+  {id:'SS-CH205',name:'Ring Handle Ceramic Candle Holder',cat:'holders',spec:'Ceramic · Ø15 × H12.7 cm · US$4.30/pc',image:'assets/ring-handle-ceramic-candle-holder-1.webp',href:'ring-handle-ceramic-candle-holder.html',moq:'50 pcs'}
 ];
 
 function header(active='') {
