@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-CH207',name:'Minimalist Creative Ceramic Triple Taper Candle Holder',cat:'holders',spec:'Matte Ceramic · 24 × 10.5 × 3.5 cm · 600 g · US$5.00/pc',image:'assets/minimalist-creative-ceramic-triple-taper-candle-holder-1.jpg',href:'minimalist-creative-ceramic-triple-taper-candle-holder.html',moq:'20 pcs'},
   {id:'SS-CH206',name:'Nordic Spiral Ceramic Taper Candle Holder',cat:'holders',spec:'Ceramic · Ø12 × H3.5 cm · 4 Colors · US$3.50/pc',image:'assets/nordic-spiral-ceramic-taper-candle-holder-1.jpg',href:'nordic-spiral-ceramic-taper-candle-holder.html',moq:'20 pcs'},
   {id:'SS-C910',name:'Handmade Arch-Shaped Soy Wax Candle',cat:'candles',spec:'Soy Wax & Beeswax · 5.5 × 7.5 × 9 cm · 220 g · From US$2.00/pc',image:'assets/handmade-arch-shaped-soy-wax-candle-1.jpg',href:'handmade-arch-shaped-soy-wax-candle.html',moq:'30 pcs'},
   {id:'SS-C909',name:'Handmade Arch Scented Soy Wax Candle',cat:'candles',spec:'Soy Wax & Beeswax · 12.1 × 6.1 × 3.8 cm · 206 g · From US$3.00/pc',image:'assets/handmade-arch-scented-soy-wax-candle-2.png',href:'handmade-arch-scented-soy-wax-candle.html',moq:'30 pcs'},
