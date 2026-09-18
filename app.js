@@ -1,5 +1,5 @@
 const products = [
-  {id:'SS-M430',name:'Hand-Painted Dachshund Ceramic Mug',cat:'tableware',spec:'Ceramic Mug · 400 ml · Blue, Red & Pink · US$4.00/pc',image:'assets/hand-painted-dachshund-ceramic-mug-1.jpg',href:'hand-painted-dachshund-ceramic-mug.html',moq:'40 pcs'},
+  {id:'SS-M430',name:'Hand-Painted Dachshund Ceramic Mug',cat:'tableware',spec:'Ceramic Mug · 400 ml · Blue, Red & Pink · US$4.00/pc',image:'assets/hand-painted-dachshund-ceramic-mug-5.jpg',href:'hand-painted-dachshund-ceramic-mug.html',moq:'40 pcs'},
   {id:'SS-M429',name:'Underglaze Hand-Pinched Ceramic Coffee Mug & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 300 ml · Assorted Designs · US$4.50/set',image:'assets/underglaze-hand-pinched-ceramic-cup-saucer-set-3.png',href:'underglaze-hand-pinched-ceramic-cup-saucer-set.html',moq:'20 sets'},
   {id:'SS-M428',name:'Creative Minimalist Striped Ceramic Coffee Cup Set',cat:'tableware',spec:'Ceramic · Blue, Green & Orange · From US$3.00',image:'assets/creative-minimalist-striped-ceramic-coffee-cup-set-2.jpg',href:'creative-minimalist-striped-ceramic-coffee-cup-set.html',moq:'20 pcs'},
   {id:'SS-CA202',name:'Multicolor Metal Candle Snuffer',cat:'tools',spec:'Metal · 3.3 × 4.5 × 16.5 cm · 40 g · US$2.00/pc',image:'assets/multicolor-metal-candle-snuffer-1.jpg',href:'multicolor-metal-candle-snuffer.html',moq:'20 pcs'},
