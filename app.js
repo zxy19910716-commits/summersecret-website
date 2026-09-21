@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-CA203',name:'Cloud-Shaped Stainless Steel Storage Tray',cat:'tools',spec:'430 Stainless Steel · 25 × 16.2 cm · 5 Colors · From US$2.30/pc',image:'assets/cloud-shaped-stainless-steel-storage-tray-1.jpg',href:'cloud-shaped-stainless-steel-storage-tray.html',moq:'20 pcs'},
   {id:'SS-M430',name:'Hand-Painted Dachshund Ceramic Mug',cat:'tableware',spec:'Ceramic Mug · 400 ml · Blue, Red & Pink · US$4.00/pc',image:'assets/hand-painted-dachshund-ceramic-mug-5.jpg',href:'hand-painted-dachshund-ceramic-mug.html',moq:'40 pcs'},
   {id:'SS-M429',name:'Underglaze Hand-Pinched Ceramic Coffee Mug & Saucer Set',cat:'tableware',spec:'Ceramic Mug Set · 300 ml · Assorted Designs · US$4.50/set',image:'assets/underglaze-hand-pinched-ceramic-cup-saucer-set-3.png',href:'underglaze-hand-pinched-ceramic-cup-saucer-set.html',moq:'20 sets'},
   {id:'SS-M428',name:'Creative Minimalist Striped Ceramic Coffee Cup Set',cat:'tableware',spec:'Ceramic · Blue, Green & Orange · From US$3.00',image:'assets/creative-minimalist-striped-ceramic-coffee-cup-set-2.jpg',href:'creative-minimalist-striped-ceramic-coffee-cup-set.html',moq:'20 pcs'},
