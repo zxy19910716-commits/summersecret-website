@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-C915',name:'European-Style Striped Christmas Scented Taper Candle Set',cat:'candles',spec:'Soy Wax Blend · Ø2.3 × H20.5 cm · As Pictured · US$3.00/set',image:'assets/european-striped-christmas-scented-taper-candle-set-1.png',href:'european-striped-christmas-scented-taper-candle-set.html',moq:'20 sets'},
   {id:'SS-C914',name:'Gradient Ribbed Taper Candle',cat:'candles',spec:'Soy Wax & Beeswax · Ø3.5 × H26 cm · As Pictured · US$2.40/pc',image:'assets/gradient-ribbed-taper-candle-1.png',href:'gradient-ribbed-taper-candle.html',moq:'20 pcs'},
   {id:'SS-C913',name:'Gradient Church-Top Taper Candle',cat:'candles',spec:'Soy Wax & Beeswax · Ø2.2 × H20 cm · Gradient Colors · US$2.20/pc',image:'assets/gradient-church-top-taper-candle-1.png',href:'gradient-church-top-taper-candle.html',moq:'20 pcs'},
   {id:'SS-C912',name:'Modern Sculptural Taper Candle Collection',cat:'candles',spec:'Soy Wax & Beeswax · Assorted Shapes · Customizable · US$2.20/pc',image:'assets/modern-sculptural-taper-candle-collection-1.png',href:'modern-sculptural-taper-candle-collection.html',moq:'20 pcs'},
