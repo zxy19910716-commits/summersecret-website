@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-C912',name:'Modern Sculptural Taper Candle Collection',cat:'candles',spec:'Soy Wax & Beeswax · Assorted Shapes · Customizable · US$2.20/pc',image:'assets/modern-sculptural-taper-candle-collection-1.png',href:'modern-sculptural-taper-candle-collection.html',moq:'20 pcs'},
   {id:'SS-C911',name:'European-Style Ribbed Hourglass Scented Pillar Candle',cat:'candles',spec:'Soy Wax & Beeswax · 2 Sizes · Customizable · From US$2.50/pc',image:'assets/european-style-ribbed-hourglass-scented-pillar-candle-1.png',href:'european-style-ribbed-hourglass-scented-pillar-candle.html',moq:'20 pcs'},
   {id:'SS-CA203',name:'Cloud-Shaped Stainless Steel Storage Tray',cat:'tools',spec:'430 Stainless Steel · 25 × 16.2 cm · 5 Colors · From US$2.30/pc',image:'assets/cloud-shaped-stainless-steel-storage-tray-1.jpg',href:'cloud-shaped-stainless-steel-storage-tray.html',moq:'20 pcs'},
   {id:'SS-M430',name:'Hand-Painted Dachshund Ceramic Mug',cat:'tableware',spec:'Ceramic Mug · 400 ml · Blue, Red & Pink · US$4.00/pc',image:'assets/hand-painted-dachshund-ceramic-mug-5.jpg',href:'hand-painted-dachshund-ceramic-mug.html',moq:'40 pcs'},
