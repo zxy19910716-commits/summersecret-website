@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-C917',name:'Morandi Ribbed Roman Pillar Candle Set',cat:'candles',spec:'Soy Wax Blend · Ø3.2 × H27 cm · 0.33 kg/set · US$2.30/set',image:'assets/morandi-ribbed-roman-pillar-candle-set-1.png',href:'morandi-ribbed-roman-pillar-candle-set.html',moq:'20 pcs / 10 sets'},
   {id:'SS-C916',name:'Nordic Morandi Ribbed Tall Scented Candle Set',cat:'candles',spec:'Soy Wax Blend · Ø3.5 × H23 cm · 0.32 kg/set · US$2.60/set',image:'assets/nordic-morandi-ribbed-tall-scented-candle-1.png',href:'nordic-morandi-ribbed-tall-scented-candle-set.html',moq:'20 pcs / 10 sets'},
   {id:'SS-C915',name:'European-Style Striped Christmas Scented Taper Candle Set',cat:'candles',spec:'Soy Wax Blend · Ø2.3 × H20.5 cm · As Pictured · US$3.00/set',image:'assets/european-striped-christmas-scented-taper-candle-set-1.png',href:'european-striped-christmas-scented-taper-candle-set.html',moq:'20 sets'},
   {id:'SS-C914',name:'Gradient Ribbed Taper Candle',cat:'candles',spec:'Soy Wax & Beeswax · Ø3.5 × H26 cm · As Pictured · US$2.40/pc',image:'assets/gradient-ribbed-taper-candle-1.png',href:'gradient-ribbed-taper-candle.html',moq:'20 pcs'},
