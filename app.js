@@ -1,4 +1,5 @@
 const products = [
+  {id:'SS-C920',name:'Luxury Black & Gold Smokeless Wedding Taper Candle Set',cat:'candles',spec:'Paraffin Wax · 25 & 30.5 cm · 4 pcs/set · From US$2.20/set',image:'assets/luxury-black-gold-smokeless-wedding-taper-candle-set-1.png',href:'luxury-black-gold-smokeless-wedding-taper-candle-set.html',moq:'20 sets'},
   {id:'SS-C919',name:'Hand-Painted Christmas Tree Taper Scented Candle',cat:'candles',spec:'Soy Wax Blend · 2 Sizes · White & Green · US$2.20/pc',image:'assets/hand-painted-christmas-tree-taper-scented-candle-7.jpg',href:'hand-painted-christmas-tree-taper-scented-candle.html',moq:'20 pcs'},
   {id:'SS-C918',name:'Pearl-Shaped Wedding Candle Collection',cat:'candles',spec:'Soy Wax Blend · 3 Styles · From US$2.20/pc',image:'assets/pearl-shaped-wedding-candle-collection-1.png',href:'pearl-shaped-wedding-candle-collection.html',moq:'20 pcs'},
   {id:'SS-C917',name:'Morandi Ribbed Roman Pillar Candle Set',cat:'candles',spec:'Soy Wax Blend · Ø3.2 × H27 cm · 0.33 kg/set · US$2.30/set',image:'assets/morandi-ribbed-roman-pillar-candle-set-1.png',href:'morandi-ribbed-roman-pillar-candle-set.html',moq:'20 pcs / 10 sets'},
