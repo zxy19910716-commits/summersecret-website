@@ -11,21 +11,37 @@
 <body>
   <div id="site-header"></div>
   <main>
-    <section><div class="container"><div class="filters" id="filters"><button class="filter active" data-cat="all">ALL PRODUCTS</button><button class="filter" data-cat="vases">VASES</button><button class="filter" data-cat="candles">CANDLES</button><button class="filter" data-cat="holders">CANDLE HOLDERS</button><button class="filter" data-cat="tools">CANDLE ACCESSORIES</button><button class="filter" data-cat="tableware">TABLEWARE</button></div><div class="product-grid" id="productGrid"></div></div></section>
+    <section><div class="container"><div class="filters" id="filters"><button class="filter active" data-cat="all">ALL PRODUCTS</button><button class="filter" data-cat="vases">VASES</button><button class="filter" data-cat="candles">CANDLES</button><button class="filter" data-cat="holders">CANDLE HOLDERS</button><button class="filter" data-cat="tools">CANDLE ACCESSORIES</button><button class="filter" data-cat="tableware">TABLEWARE</button></div><div class="subfilters" id="tablewareSubfilters" aria-label="Tableware subcategories"><button class="subfilter" data-sub="mugs">MUGS</button><button class="subfilter" data-sub="cups">CUPS</button><button class="subfilter" data-sub="plates">PLATES</button><button class="subfilter" data-sub="bowls">BOWLS</button><button class="subfilter" data-sub="other">OTHER</button></div><div class="product-grid" id="productGrid"></div></div></section>
     <section class="cta"><div class="container section-head"><div><p class="eyebrow" style="color:#dfe8e0">CUSTOM DEVELOPMENT</p><h2>Bring your ideas to life with custom development.</h2><p>Share your concept, reference images or technical drawings. We support custom molds, finishes, packaging and retail-ready solutions.</p></div><a class="btn" href="contact.html#inquiry">Start Your Custom Project &rarr;</a></div></section>
   </main>
   <div id="site-footer"></div>
-  <script src="app.js?v=20261013-tableware-category"></script>
+  <script src="app.js?v=20261013-tableware-subcategories"></script>
   <script>
     init('products');
     renderProducts('#productGrid');
-    const wanted = new URLSearchParams(location.search).get('cat') || 'all';
-    function filterProducts(category) {
+    const params = new URLSearchParams(location.search);
+    const wanted = params.get('cat') || 'all';
+    const wantedSub = params.get('sub') || '';
+    const subfilters = document.querySelector('#tablewareSubfilters');
+    const subWords = {mugs:'mug',cups:'cup',plates:'plate',bowls:'bowl'};
+    function matchesSubcategory(product,subcategory) {
+      const name = product.dataset.name || '';
+      const matched = Object.values(subWords).some(word => new RegExp(`\\b${word}s?\\b`).test(name));
+      return subcategory === 'other' ? !matched : new RegExp(`\\b${subWords[subcategory]}s?\\b`).test(name);
+    }
+    function filterProducts(category,subcategory='') {
       document.querySelectorAll('.filter').forEach(button => button.classList.toggle('active', button.dataset.cat === category));
-      document.querySelectorAll('.product').forEach(product => product.style.display = category === 'all' || product.dataset.cat === category ? 'block' : 'none');
+      subfilters.classList.toggle('visible', category === 'tableware');
+      document.querySelectorAll('.subfilter').forEach(button => button.classList.toggle('active', button.dataset.sub === subcategory));
+      document.querySelectorAll('.product').forEach(product => {
+        const categoryMatch = category === 'all' || product.dataset.cat === category;
+        const subcategoryMatch = !subcategory || (product.dataset.cat === 'tableware' && matchesSubcategory(product,subcategory));
+        product.style.display = categoryMatch && subcategoryMatch ? 'block' : 'none';
+      });
     }
     document.querySelectorAll('.filter').forEach(button => button.onclick = () => filterProducts(button.dataset.cat));
-    filterProducts(wanted);
+    document.querySelectorAll('.subfilter').forEach(button => button.onclick = () => filterProducts('tableware',button.dataset.sub));
+    filterProducts(wanted,wanted === 'tableware' ? wantedSub : '');
   </script>
 </body>
 </html>
