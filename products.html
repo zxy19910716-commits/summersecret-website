@@ -15,7 +15,7 @@
     <section class="cta"><div class="container section-head"><div><p class="eyebrow" style="color:#dfe8e0">CUSTOM DEVELOPMENT</p><h2>Bring your ideas to life with custom development.</h2><p>Share your concept, reference images or technical drawings. We support custom molds, finishes, packaging and retail-ready solutions.</p></div><a class="btn" href="contact.html#inquiry">Start Your Custom Project &rarr;</a></div></section>
   </main>
   <div id="site-footer"></div>
-  <script src="app.js?v=20261013-tableware-click-submenu"></script>
+  <script src="app.js?v=20261014-unique-tableware-subcategories"></script>
   <script>
     init('products');
     renderProducts('#productGrid');
@@ -23,11 +23,8 @@
     const wanted = params.get('cat') || 'all';
     const wantedSub = params.get('sub') || '';
     const subfilters = document.querySelector('#tablewareSubfilters');
-    const subWords = {mugs:'mug',cups:'cup',plates:'plate',bowls:'bowl'};
     function matchesSubcategory(product,subcategory) {
-      const name = product.dataset.name || '';
-      const matched = Object.values(subWords).some(word => new RegExp(`\\b${word}s?\\b`).test(name));
-      return subcategory === 'other' ? !matched : new RegExp(`\\b${subWords[subcategory]}s?\\b`).test(name);
+      return product.dataset.subcat === subcategory;
     }
     function filterProducts(category,subcategory='') {
       document.querySelectorAll('.filter').forEach(button => button.classList.toggle('active', button.dataset.cat === category));
